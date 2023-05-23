@@ -1,0 +1,562 @@
+# Copyright (C) 2018 Expivi
+# This file is distributed under the same license as the Expivi package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Expivi 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/expivi\n"
+"POT-Creation-Date: 2023-04-17 10:33+0200\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: classes\n"
+
+#: classes/class-expivi.php:84
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: classes/class-expivi.php:91
+msgid "Wakeup is forbidden."
+msgstr ""
+
+#: classes/class-expivi.php:283
+msgid "This plugin requires to following plugin to be active: "
+msgstr ""
+
+#: classes/connect-rep/class-expivi-save-design-connect-rep-controller.php:71
+msgid "Success! We'll reach out to you shortly!"
+msgstr ""
+
+#: classes/helpers/class-expivi-product-helper.php:33
+#: classes/helpers/class-expivi-product-helper.php:66
+msgid "View cart"
+msgstr ""
+
+#: classes/helpers/class-expivi-product-helper.php:35
+#, php-format
+msgid "You cannot add that amount to the cart &mdash; we have %1$s in stock and you already have %2$s in your cart."
+msgstr ""
+
+#: classes/helpers/class-expivi-product-helper.php:68
+#, php-format
+msgid "You cannot add to the cart &mdash; we have %1$s in stock of one of the sub products and you already have %2$s in your cart."
+msgstr ""
+
+#: classes/save-design/class-expivi-save-design-controller.php:90
+msgid "Congratulations, your custom design has been emailed to you."
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-order-manager.php:57
+#, php-format
+msgid "Sub-product %1$s stock limit (%2$s) reached!"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:66
+#: templates/admin/expivi_tab.phtml:17
+msgid "Expivi product"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:133
+msgid "Top"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:134
+msgid "Bottom"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:137
+msgid "Single"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:138
+msgid "Generate grouped product"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:139
+msgid "Generate grouped product and use custom price"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:142
+msgid "Default (active camera)"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:143
+msgid "Use main camera"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:146
+msgid "Portrait"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:147
+msgid "Landscape"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:150
+msgid "Add product to cart (default)"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:151
+msgid "Save design"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-product-settings.php:152
+msgid "Save design & Add to cart"
+msgstr ""
+
+#: classes/woocommerce/admin/class-expivi-admin-settings-mediator.php:71
+#: classes/woocommerce/admin/class-expivi-admin-settings-mediator.php:72
+#: templates/admin/settings/admin_settings.phtml:14
+msgid "Expivi settings"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:58
+msgid "General"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:67
+msgid "API Url"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:77
+msgid "API Token"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:87
+msgid "Upload URL"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:97
+msgid "Price selector"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:107
+msgid "Price calculation"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:110
+msgid "Use website language"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:111
+msgid "Use country of store location"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:130
+msgid "Reconfigure button in cart"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:142
+msgid "Reconfigure button text"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:153
+msgid "Append options to hook"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:176
+msgid "Blacklisted words"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:179
+msgid "Each word should be separated using comma. All words will be lowercased."
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:188
+msgid "Blacklisted notification"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:191
+msgid "This is the notification that will be shown if the user is using a blacklisted word. It accepts html."
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:200
+msgid "Resolve blacklisted words"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:203
+msgid "Default (do nothing)"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:204
+msgid "Replace words with asterisks"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:205
+msgid "Remove the words"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:224
+msgid "Generated Products Shop Visibility"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:227
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:250
+msgid "Hide Generated Products (default)"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:228
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:251
+msgid "Display Generated Products"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-general-settings.php:247
+msgid "Generated Products Admin Visibility"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-info-settings.php:50
+#: classes/woocommerce/admin/settings/class-expivi-admin-info-settings.php:58
+#: classes/woocommerce/admin/settings/class-expivi-admin-info-settings.php:60
+#: classes/woocommerce/admin/settings/class-expivi-admin-info-settings.php:61
+#: classes/woocommerce/admin/settings/class-expivi-admin-info-settings.php:62
+#: classes/woocommerce/admin/settings/class-expivi-admin-info-settings.php:63
+#: classes/woocommerce/admin/settings/class-expivi-admin-info-settings.php:64
+#: classes/woocommerce/admin/settings/class-expivi-admin-info-settings.php:65
+#: classes/woocommerce/admin/settings/class-expivi-admin-info-settings.php:77
+msgid "Not available"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:99
+#: templates/save-design/expivi_save_design_form.phtml:22
+msgid "Save my design"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:108
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:206
+msgid "Enable"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:112
+msgid "Go to Expivi documentation"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:138
+msgid "Share link settings"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:141
+msgid "Here you can change the settings for the share link functionality"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:149
+msgid "Enable copy share link"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:161
+msgid "Copy share link button text"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:177
+msgid "Edit copy share link button"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:197
+msgid "Connect to a Representative settings"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:218
+msgid "Representative email"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:234
+msgid "Connect to a representative button text"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:249
+msgid "Edit connect to a representative button"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:268
+msgid "Additional email address"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:271
+msgid "If you want to receive the email that is being sent to the customer, enter your email address(es) below"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:279
+msgid "Email address(es)"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:282
+msgid "<p class=\"text-muted\">Enter a valid email address. Multiple email adresses can be entered using <code>,</code> as separator</p>"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:297
+msgid "Edit form"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:311
+msgid "Edit success message"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:330
+msgid "Save my design form settings"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:333
+msgid "Here you can change the layout and the texts of the save my design form"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:341
+msgid "Form theme"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:356
+msgid "Save my design submit button"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:373
+msgid "Enable state selector settings"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:376
+msgid "Enable state selection dropdown form field"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:384
+msgid "Enable state dropdown"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:396
+msgid "Select states from"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:424
+msgid "Enable country selector settings"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:427
+msgid "Enable country selection dropdown form field"
+msgstr ""
+
+#: classes/woocommerce/admin/settings/class-expivi-admin-save-design-settings.php:435
+msgid "Enable countries dropdown"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-cart-manager.php:171
+msgid "Unfortunately configured products cannot be restored"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-cart-manager.php:291
+#: classes/woocommerce/class-expivi-cart-manager.php:302
+#: classes/woocommerce/class-expivi-cart-manager.php:421
+#: classes/woocommerce/class-expivi-cart-manager.php:478
+msgid "Could not add products to cart."
+msgstr ""
+
+#: classes/woocommerce/class-expivi-cart-manager.php:367
+msgid "Could not add to cart: One of the sub-products is missing!"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-cart-manager.php:380
+#: classes/woocommerce/class-expivi-cart-manager.php:436
+msgid "Could not add to cart, one of the sub-products is out of stock!"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-cart-manager.php:575
+msgid "Could not do price calculation"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-catalogue.php:43
+msgid "Configure product"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-checkout-manager.php:114
+#: classes/woocommerce/class-expivi-checkout-manager.php:131
+#, php-format
+msgid "Sorry, we do not have enough \"%1$s\" in stock to fulfill your order (%2$s available). We apologize for any inconvenience caused."
+msgstr ""
+
+#: classes/woocommerce/class-expivi-configurator.php:151
+msgid "Failed to save the design"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-configurator.php:187
+msgid "Unable to add the items to your cart, there are validation errors"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-configurator.php:211
+msgid "State"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-configurator.php:212
+msgid "Country"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-social-sharing.php:181
+msgid "Failed to initiate sharing"
+msgstr ""
+
+#: classes/woocommerce/class-expivi-social-sharing.php:182
+msgid "Share module not available yet."
+msgstr ""
+
+#: classes/woocommerce/class-expivi-validation.php:59
+#, php-format
+msgid "%s contains a blacklisted word."
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:26
+msgid "Expivi product ID"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:35
+msgid "Add to cart process"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:44
+msgid "Viewer settings"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:47
+msgid "Show 3D hover icon"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:51
+msgid "Auto rotate product"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:55
+msgid "Show progress bar"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:61
+msgid "Camera position for generating thumbnail"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:67
+msgid "Change 'Add to cart' text."
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:69
+msgid "(Leave blank to use default)"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:74
+msgid "Shop flow used for this product"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:83
+msgid "Option-panel settings"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:86
+msgid "Show options"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:90
+msgid "Hide price"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:94
+msgid "Hide price when zero"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:100
+msgid "Price position"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:106
+msgid "Auto scroll to step (experimental)"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:110
+msgid "Enable configuration download as PDF"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:116
+msgid "PDF orientation"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:125
+msgid "SKU Generation"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:128
+msgid "The input below can be used to generate the SKU dynamically. Text and/or numbers will directly be used as part of the SKU. Entering Attribute Key surrounded by <code>{</code> and <code>}</code> will dynamically be converted to the Key field of the selected option. Use {#} as delimiter which can be defined below."
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:131
+msgid "Example: <code>L{Attribute1Key}{#}{Attribute2Key}_SKU</code> will be converted to <code>LOPT1-OPT2_SKU</code>."
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:134
+msgid "Dynamic SKU Generation"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:136
+msgid "(Leave blank to disable)"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:139
+msgid "Aside from entering text/numbers in the field above, the dynamic delimiter will only be shown if the surrounded attributes are selected to avoid multple delimiters."
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:142
+msgid "SKU Delimiter"
+msgstr ""
+
+#: templates/admin/expivi_tab.phtml:149
+msgid "Viewer"
+msgstr ""
+
+#: templates/admin/settings/admin_settings_info.phtml:16
+msgid "Plugin / System information"
+msgstr ""
+
+#: templates/admin/settings/admin_settings_info.phtml:22
+msgid "Expivi Plugin"
+msgstr ""
+
+#: templates/admin/settings/admin_settings_info.phtml:57
+msgid "System"
+msgstr ""
+
+#: templates/admin/settings/admin_settings_logs.phtml:14
+msgid "Expivi Logs"
+msgstr ""
+
+#: templates/admin/settings/admin_settings_logs.phtml:17
+msgid "Filename"
+msgstr ""
+
+#: templates/admin/settings/admin_settings_logs.phtml:27
+msgid "Select"
+msgstr ""
+
+#: templates/admin/settings/admin_settings_logs.phtml:34
+msgid "No logs found."
+msgstr ""
+
+#: templates/cart/cart_sub_product_item.phtml:23
+msgid "Weight"
+msgstr ""
+
+#: templates/cart/product_item_details.phtml:23
+msgid "Total weight"
+msgstr ""
+
+#: templates/save-design/expivi_save_design_form.phtml:23
+#: templates/save-design/expivi_save_design_success.phtml:19
+msgid "Close"
+msgstr ""
+
+#: templates/save-design/expivi_save_design_form_fields.phtml:23
+msgid "Email address"
+msgstr ""
+
+#: templates/save-design/expivi_save_design_success.phtml:18
+msgid "Congratulations"
+msgstr ""
+
+#: templates/save-design/expivi_save_design_success_message.phtml:15
+msgid "Start over"
+msgstr ""

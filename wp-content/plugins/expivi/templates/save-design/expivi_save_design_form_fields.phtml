@@ -1,0 +1,25 @@
+<?php
+/**
+ * Save design modal - Form Fields
+ *
+ * @version 1.0
+ */
+?>
+<!-- Silence is golden!
+You can create a expivi form field by creating a HTML input field. The following HTML input options are available.
+- Class ( For styling purposes default value "expivi-modal-user-data" )
+- ID [required] ( Required to start with 'xpv-')
+- Type [required] ( For client and server side validation ) { Email, Text, Number, Date, Tel }
+- Pattern (Regex pattern)
+- Name="Name"
+- Data-required="True" ( Use this to validate requirement )
+- MinLength, Maxlength & size
+- Min, Max & step ( Number type field only )
+
+You can also use HTML label fields to accompany the input field.
+-->
+
+<!-- Example Email field -->
+<label class=save-design-form-label for="xpv-userdata-email"><?= __( 'Email address', 'expivi' ) ?><abbr aria-label="required">*</abbr></label>
+<input class="expivi-modal-user-data" minlength="4" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" id="xpv-userdata-email" type="email" name="userdata[email]" data-required="true" required>
+<!-- -->

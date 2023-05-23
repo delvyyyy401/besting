@@ -1,0 +1,32 @@
+<?php
+/**
+ * Save design modal - Success
+ *
+ * @version 1.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+?>
+<!--Success follow up modal -->
+<div id="success-save-design-modal" class="expivi-modal">
+	<div class="expivi-modal-content <?= /** @var string $theme */ $theme ?>">
+		<div class="expivi-modal-header">
+			<div class="expivi-modal-header-content">
+				<span class="expivi-modal-header-text <?= $theme ?>"><?= __('Congratulations', 'expivi') ?></span>
+				<span class="expivi-close-span"><?= __('Close', 'expivi') ?></span>
+			</div>
+		</div>
+		<div class="expivi-modal-body <?= $theme ?>">
+			<div id="success">
+				<?= /** @var array $success_message */ $success_message ?>
+			</div>
+			<div id="follow-up">
+				<?= /** @var array $follow_up */ $follow_up ?>
+			</div>
+			<div class="expivi-loader <?= $theme ?>" id="follow-up-loader"></div>
+		</div>
+	</div>
+</div>

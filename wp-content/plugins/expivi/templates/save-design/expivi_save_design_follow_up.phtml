@@ -1,0 +1,21 @@
+<?php
+/**
+ * Save design modal - Follow-up
+ *
+ * @version 1.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+?>
+<!--Success follow up modal -->
+<p id="response" class="expivi-modal-form <?= /** @var string $theme */ $theme ?>"></p>
+<?php /** @var bool $copy_share_link_bool */ if( $copy_share_link_bool ) : ?>
+	<input type="hidden" id="share-link"><br>
+	<?= /** @var string $share_link */ $share_link ?>
+<?php endif; ?>
+<?php /** @var bool $connect_to_rep_bool */ if( $connect_to_rep_bool ) : ?>
+	<?= /** @var string $connect_rep */ $connect_rep ?>
+<?php endif; ?>

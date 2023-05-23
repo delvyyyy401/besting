@@ -1,0 +1,30 @@
+<?php
+/**
+ * Admin View - WC Order Product Table Body
+ *
+ * @version 1.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+?>
+<td>
+    <?php
+        foreach ( $options as $option ) {
+            echo '<b>' . esc_html( $option['name'] ) . '</b> ' . esc_html( $option['value'] ) . '<br />';
+        }
+    ?>
+</td>
+<td>
+    <?php
+        foreach ( $articles as $article ) {
+            echo esc_html( $article ) . '<br />';
+        }
+    ?>
+
+    <?php if ( isset( $dynamic_sku ) && ! empty( $dynamic_sku ) ) : ?>
+        <?php echo esc_html( $dynamic_sku ); ?>
+    <?php endif; ?>
+</td>

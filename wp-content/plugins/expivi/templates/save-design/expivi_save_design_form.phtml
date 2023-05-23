@@ -1,0 +1,54 @@
+<?php
+/**
+ * Save design modal - Form
+ *
+ * @version 1.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+?>
+<div id="xpv-save-my-design-form">
+	<!-- save design button -->
+	<input type="submit" id="xpv-save-design-btn" class="submit" name="xpv-save-design" value="Save design">
+
+	<div id="save-design-modal" class="expivi-modal">
+		<!-- Modal content -->
+		<div class="expivi-modal-content <?= /** @var string $theme */ $theme ?>">
+			<div class="expivi-modal-header">
+				<div class="expivi-modal-header-content">
+					<span class="expivi-modal-header-text <?= $theme ?>"><?= __( 'Save my design', 'expivi' ) ?></span>
+					<span class="expivi-close-span"><?= __( 'Close', 'expivi' ) ?></span>
+				</div>
+			</div>
+			<div class="expivi-modal-body <?= $theme ?>">
+				<form class="expivi-modal-form <?= $theme ?>" id="save-design-form">
+					<?= /** @var array $form_fields */ $form_fields ?>
+					<?php /** @var bool $countries_selection */ if ($countries_selection): ?>
+						<?= /** @var string $countries_html_label */ $countries_html_label ?>
+						<?= /** @var string $countries_html_select */ $countries_html_select ?>
+						<?php /** @var array $countries_html_options */ foreach ($countries_html_options as $option): ?>
+							<?php echo $option ?>
+						<?php endforeach ?>
+						<?= /** @var string $html_select_close */ $html_select_close ?>
+					<?php endif; ?>
+					<?php /** @var bool $state_selection */ if ($state_selection): ?>
+						<?= /** @var string $states_html_label */ $states_html_label ?>
+						<?= /** @var string $states_html_select */ $states_html_select ?>
+						<?php /** @var array $states_html_options */ foreach ($states_html_options as $option): ?>
+							<?php echo $option ?>
+						<?php endforeach ?>
+						<?= /** @var string $html_select_close */ $html_select_close ?>
+					<?php endif; ?>
+				</form>
+			</div>
+			<div class="expivi-modal-footer <?= $theme ?>">
+				<p id="error-response-save-design-modal"></p>
+				<div class="expivi-loader <?= $theme ?>" id="save-design-loader"></div>
+				<input class="save-design-btn" type="submit" value="<?= /** @var string $btnOnForm */ $btnOnForm ?>" id="save-design-btn-modal">
+			</div>
+		</div>
+	</div>
+</div>

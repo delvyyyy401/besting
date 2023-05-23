@@ -1,0 +1,31 @@
+<?php
+/**
+ * Cart View - Product Item Details
+ *
+ * @version 1.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+?>
+
+<?php foreach ( $configuration['attributes'] as $option ): ?>
+    <br><b><?php echo esc_html( $option['attribute_name'] ); ?></b>&nbsp;<?php echo esc_html( $option['attribute_value_name'] ); ?>
+<?php endforeach; ?>
+
+<?php if ( isset( $dynamic_sku ) && ! empty( $dynamic_sku ) ) : ?>
+    <br><b>SKU:</b>&nbsp;<?php echo esc_html( $dynamic_sku ); ?>
+<?php endif; ?>
+
+<?php if ( isset( $cart_item ) && $cart_item['data']->has_weight() ) : ?>
+    <br><b><?php echo __( 'Total weight', 'expivi' ); ?></b>:&nbsp;
+    <?php echo esc_html( $cart_item['data']->get_weight() ); ?>
+<?php endif; ?>
+
+<?php if ( isset( $cart_button ) ): ?>
+    <br><a href="<?php echo esc_url( $cart_button['url'] ); ?>" class="xpv_reconfigure_button">
+        <?php echo esc_html( $cart_button['label'] ); ?>
+    </a>
+<?php endif; ?>
